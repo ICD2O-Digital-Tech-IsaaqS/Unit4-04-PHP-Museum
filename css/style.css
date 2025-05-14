@@ -1,4 +1,41 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaaq Simon
+* Created on: May 2025
 * This file contains the CSS for index.html
 */
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #c20b0b;
+}
+
+/* Container styling */
+.container {
+    max-width: 400px;
+    background: #08a2df;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Form input styling */
+input,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Result text styling */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
